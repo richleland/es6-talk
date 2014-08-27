@@ -1,0 +1,23 @@
+{
+  "name": "es6-talk",
+  "version": "0.0.0",
+  "description": "es6 talk examples",
+  "main": "Gruntfile.js",
+  "dependencies": {
+    "grunt-contrib-concat": "^0.5.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt": "^0.4.5",
+    "grunt-traceur-latest": "^0.0.4"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/richleland/es6-talk.git"
+  },
+  "author": "Richard Leland",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/richleland/es6-talk/issues"
+  },
+  "homepage": "https://github.com/richleland/es6-talk"
+}
