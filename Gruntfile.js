@@ -39,4 +39,6 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-concat');
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-traceur-latest');
+
+  grunt.registerTask('default', ['traceur', 'concat', 'watch']);
 };
